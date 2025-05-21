@@ -8,10 +8,6 @@ let
   inherit (config.nvix) icons;
 in
 {
-  luaLoader.enable = false;
-  dependencies = {
-    gcc.enable = true;
-  };
 
   globals = {
     mapleader = config.nvix.leader; # sets <space> as my leader key
@@ -87,7 +83,7 @@ in
     with icons.diagnostics;
     # lua
     ''
-      vim.opt.whichwrap:append("<>[]hl")
+      vim.opt.whichwrap:append("<>[]")
       vim.opt.listchars:append("space:·")
 
       -- below part set's the Diagnostic icons/colors

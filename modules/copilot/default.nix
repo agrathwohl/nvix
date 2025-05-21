@@ -11,6 +11,10 @@
     };
   };
 
+  plugins.copilot-chat.enable = true;
+
+  plugins.avante.enable = true;
+
   imports =
     with builtins;
     with lib;
