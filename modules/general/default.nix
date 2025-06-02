@@ -16,7 +16,7 @@ in
 
   opts = {
 
-    clipboard = "unnamedplus";
+    clipboard = "unnamed,unnamedplus";
     cursorline = true;
     cursorlineopt = "number";
 

@@ -19,11 +19,11 @@
       enable = true;
       inlayHints = true;
       servers = {
-        harper_ls.enable = true; # Alternative for grammerly
-        typos_lsp = {
-          enable = true;
-          extraOptions.init_options.diagnosticSeverity = "Hint";
-        };
+        #harper_ls.enable = true; # Alternative for grammerly
+        #typos_lsp = {
+        #  enable = true;
+        #  extraOptions.init_options.diagnosticSeverity = "Hint";
+        #};
       };
       keymaps = {
         silent = true;

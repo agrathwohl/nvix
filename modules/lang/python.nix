@@ -4,8 +4,8 @@
     pyright = {
       enable = true;
       settings = {
-        pyright.disableOrganizeImports = true;
-        python.analysis.ignore = [ "*" ];
+        #pyright.disableOrganizeImports = true;
+        #python.analysis.ignore = [ "*" ];
       };
     };
   };
