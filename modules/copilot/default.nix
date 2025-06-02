@@ -14,6 +14,25 @@
   plugins.copilot-chat.enable = true;
 
   plugins.codecompanion.enable = true;
+  plugins.codecompanion.settings = {
+  opts = {
+    log_level = "TRACE";
+    send_code = true;
+    use_default_actions = true;
+    use_default_prompts = true;
+  };
+  strategies = {
+    agent = {
+      adapter = "ollama";
+    };
+    chat = {
+      adapter = "ollama";
+    };
+    inline = {
+      adapter = "ollama";
+    };
+  };
+  };
 
   plugins.avante.enable = false;
   plugins.avante = {
